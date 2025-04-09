@@ -18,7 +18,7 @@ void insert()
 
     p = (struct node *)malloc(sizeof(struct node));
     p->data = key;
-    p->data = NULL;
+    p->next = NULL;
 
     if (head[i] == NULL)
     {
